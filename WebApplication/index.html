@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.5.1.min.js"></script>
+    <script src="Scripts/app.js"></script>
+
+</head>
+<body>
+    <div id="createListDiv">
+        <h1>Give your Shopping List a name</h1>
+        <input type="text" id="shoppinglistName" placeholder="New List" />
+        <button onclick="createShoppingList()"> Create</button>
+    </div>
+    
+    <div id="shoppingListDiv" style="display:none;">
+        <h1 id="shoppingListTitle">New List</h1>
+        <input id="newItemName" type="text" placeholder="New Item" />
+        <button onclick="addItem()">Add</button>
+        <ul id="shoppingListItems">
+            <li>test1 <button>C</button><button>D</button> </li>
+            <li>2 <button>C</button><button>D</button></li>
+            <li>3 <button>C</button><button>D</button></li>
+            <li>4 <button>C</button><button>D</button></li>
+        </ul>
+    </div>
+</body>
+</html>
