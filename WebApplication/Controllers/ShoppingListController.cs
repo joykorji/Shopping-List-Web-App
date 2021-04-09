@@ -15,7 +15,7 @@ namespace WebApplication.Controllers
         public static List<ShoppingList> shoppingLists = new List<ShoppingList>
         {
 
-            // this is a dommy shopping list ( because we dont ahve a database in this project yet) 
+            // this is a dommy shopping list will be used to test before creating the database 
             new ShoppingList() { Id = 0, Name = "Groceries", Items = {
                 new Item { Id =0,  Name = "Milk", ShoppingListId =0 },
                 new Item { Id =1,  Name = "conrflakes", ShoppingListId =0  },
